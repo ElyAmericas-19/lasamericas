@@ -566,3 +566,57 @@ button,input,textarea{font:inherit}
     flex-direction:column;
   }
 }
+
+
+/* BOTÓN FLOTANTE FACEBOOK - aparece arriba de WhatsApp */
+.facebook-float{
+  position:fixed;
+  right:22px;
+  bottom:88px;
+  z-index:999;
+  display:flex;
+  align-items:center;
+  gap:9px;
+  padding:12px 16px;
+  border-radius:999px;
+  background:#1877f2;
+  color:#fff;
+  font-weight:800;
+  box-shadow:0 12px 30px rgba(24,119,242,.28);
+  transition:.2s;
+}
+
+.facebook-float:hover{
+  transform:translateY(-3px) scale(1.02);
+}
+
+.facebook-float-icon{
+  width:25px;
+  height:25px;
+  display:grid;
+  place-items:center;
+  font-family:Arial,sans-serif;
+  font-size:1.45rem;
+  font-weight:700;
+  line-height:1;
+}
+
+@media (max-width: 600px){
+  .facebook-float{
+    width:56px;
+    height:56px;
+    right:22px;
+    bottom:88px;
+    padding:0;
+    border-radius:50%;
+    justify-content:center;
+  }
+
+  .facebook-float-text{
+    display:none;
+  }
+
+  .facebook-float-icon{
+    font-size:1.65rem;
+  }
+}
