@@ -38,3 +38,10 @@ Para probar la página:
 1. Coloca todos los archivos dentro de una misma carpeta.
 2. Mete tus fotografías en la carpeta img.
 3. Abre index.html en Chrome, Edge, Firefox, etc.
+
+
+FACEBOOK:
+Busca en index.html:
+https://www.facebook.com/TU_PAGINA_DE_FACEBOOK
+
+Reemplázalo por el enlace real de la página de Facebook del kinder.
