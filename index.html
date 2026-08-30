@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Centro Educativo Las Américas - Kinder I, Kinder II y Preprimaria." />
+  <title>Centro Educativo Las Américas</title>
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="inicio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <div class="brand-icon">♥</div>
+        <div>
+          <span class="brand-top">Centro Educativo</span>
+          <strong>Las Américas</strong>
+        </div>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#niveles">Niveles</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+        <a class="nav-cta" href="#inscripciones">Inscripciones</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="shape shape-a"></div>
+      <div class="shape shape-b"></div>
+      <div class="shape shape-c"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Kinder I · Kinder II · Preprimaria</span>
+          <h1>Pequeños pasos, <span>grandes aprendizajes.</span></h1>
+          <p>
+            Un espacio cálido y divertido donde tus peques aprenden jugando,
+            desarrollan su creatividad y crecen felices.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#inscripciones">Conoce nuestras inscripciones</a>
+            <a class="btn btn-light" href="#nosotros">Conoce el kinder</a>
+          </div>
+
+          <div class="hero-mini">
+            <div><strong>Aprendizaje</strong><span>por medio del juego</span></div>
+            <div><strong>Ambiente</strong><span>seguro y alegre</span></div>
+            <div><strong>Atención</strong><span>cercana y humana</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <!-- Cambia hero.jpg por tu fotografía -->
+          <div class="photo-card main-photo">
+            <img src="img/hero.jpg" alt="Niños aprendiendo y jugando en el kinder"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');">
+            <div class="placeholder-text">Coloca aquí tu foto principal<br><small>img/hero.jpg</small></div>
+          </div>
+
+          <div class="floating-card card-one">
+            <span>☀️</span>
+            <div><strong>Aprender</strong><small>explorando</small></div>
+          </div>
+
+          <div class="floating-card card-two">
+            <span>🎨</span>
+            <div><strong>Crear</strong><small>con imaginación</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wave"></div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section about" id="nosotros">
+      <div class="container split">
+        <div class="photo-stack">
+          <div class="photo-card tall">
+            <img src="img/nosotros.jpg" alt="Actividades del Centro Educativo Las Américas"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');">
+            <div class="placeholder-text">img/nosotros.jpg</div>
+          </div>
+          <div class="sticker">ABC<br><span>123</span></div>
+        </div>
+
+        <div class="section-copy">
+          <span class="eyebrow coral">Nuestro compromiso</span>
+          <h2>Una infancia feliz construye un gran futuro</h2>
+          <p>
+            Creamos experiencias de aprendizaje significativas a través del juego,
+            la convivencia, el arte y la exploración. Acompañamos a cada niño en
+            su desarrollo académico, social y emocional.
+          </p>
+
+          <div class="features">
+            <article>
+              <div class="feature-icon blue">🧩</div>
+              <div><h3>Aprendizaje activo</h3><p>Actividades pensadas para descubrir, experimentar y aprender.</p></div>
+            </article>
+            <article>
+              <div class="feature-icon yellow">💛</div>
+              <div><h3>Acompañamiento cercano</h3><p>Un trato amable y respetuoso en cada etapa de su crecimiento.</p></div>
+            </article>
+            <article>
+              <div class="feature-icon pink">🌈</div>
+              <div><h3>Desarrollo integral</h3><p>Fortalecemos habilidades, valores, autonomía y confianza.</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NIVELES -->
+    <section class="section levels" id="niveles">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow">Nuestros niveles</span>
+          <h2>Cada etapa tiene su propia aventura</h2>
+          <p>Programas pensados para acompañar el desarrollo de cada peque.</p>
+        </div>
+
+        <div class="cards">
+          <article class="level-card mint">
+            <div class="level-emoji">🧸</div>
+            <span class="level-tag">Primeros descubrimientos</span>
+            <h3>Kinder I</h3>
+            <p>Juego, lenguaje, coordinación, convivencia y exploración en un ambiente lleno de confianza.</p>
+          </article>
+
+          <article class="level-card sunshine">
+            <div class="level-emoji">🎈</div>
+            <span class="level-tag">Más autonomía</span>
+            <h3>Kinder II</h3>
+            <p>Actividades para fortalecer pensamiento, comunicación, creatividad y habilidades sociales.</p>
+          </article>
+
+          <article class="level-card lavender">
+            <div class="level-emoji">✏️</div>
+            <span class="level-tag">Listos para crecer</span>
+            <h3>Preprimaria</h3>
+            <p>Preparamos las bases académicas y emocionales para iniciar la siguiente etapa con seguridad.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSCRIPCIONES -->
+    <section class="section enrollment" id="inscripciones">
+      <div class="container enrollment-box">
+        <div>
+          <span class="eyebrow white">Ciclo escolar</span>
+          <h2>¡Inscripciones abiertas!</h2>
+          <p>Agenda una visita y conoce nuestros espacios, actividades y forma de trabajo.</p>
+        </div>
+        <a class="btn btn-white" href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20las%20inscripciones%20del%20kinder." target="_blank" rel="noopener">
+          Solicitar información
+        </a>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow coral">Peques en acción</span>
+          <h2>Momentos que se convierten en recuerdos</h2>
+        </div>
+
+        <div class="gallery">
+          <div class="gallery-item wide">
+            <img src="img/galeria-1.jpg" alt="Actividad escolar 1"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');">
+            <div class="placeholder-text">img/galeria-1.jpg</div>
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria-2.jpg" alt="Actividad escolar 2"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');">
+            <div class="placeholder-text">img/galeria-2.jpg</div>
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria-3.jpg" alt="Actividad escolar 3"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');">
+            <div class="placeholder-text">img/galeria-3.jpg</div>
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria-4.jpg" alt="Actividad escolar 4"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');">
+            <div class="placeholder-text">img/galeria-4.jpg</div>
+          </div>
+          <div class="gallery-item wide">
+            <img src="img/galeria-5.jpg" alt="Actividad escolar 5"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');">
+            <div class="placeholder-text">img/galeria-5.jpg</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section contact" id="contacto">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow">Estamos para ayudarte</span>
+          <h2>Conoce el lugar donde tu peque va a crecer feliz</h2>
+          <p>
+            Escríbenos para conocer horarios, disponibilidad, costos o agendar una visita.
+          </p>
+
+          <div class="contact-list">
+            <a href="tel:+520000000000">📞 <span><strong>Teléfono</strong><small>00 0000 0000</small></span></a>
+            <a href="mailto:contacto@tukinder.com">✉️ <span><strong>Correo</strong><small>contacto@tukinder.com</small></span></a>
+            <div>📍 <span><strong>Ubicación</strong><small>Agrega aquí la dirección del kinder</small></span></div>
+          </div>
+        </div>
+
+        <form class="contact-card" id="contactForm">
+          <h3>Solicita información</h3>
+          <label>
+            Nombre
+            <input type="text" id="name" placeholder="Tu nombre" required>
+          </label>
+          <label>
+            Teléfono
+            <input type="tel" id="phone" placeholder="Tu número" required>
+          </label>
+          <label>
+            Mensaje
+            <textarea id="message" rows="4" placeholder="Quiero conocer más sobre..."></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary full">Enviar por WhatsApp</button>
+          <small class="form-note">El formulario abre WhatsApp con el mensaje listo para enviar.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="brand footer-brand">
+        <div class="brand-icon">♥</div>
+        <div>
+          <span class="brand-top">Centro Educativo</span>
+          <strong>Las Américas</strong>
+        </div>
+      </div>
+      <p>Infancia feliz, adultos comprometidos.</p>
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+    <div class="container copyright">
+      © <span id="year"></span> Centro Educativo Las Américas. Todos los derechos reservados.
+    </div>
+  </footer>
+
+  <!-- BOTÓN FLOTANTE WHATSAPP -->
+  <a class="whatsapp-float"
+     href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20kinder."
+     target="_blank" rel="noopener" aria-label="Enviar mensaje por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M19.11 17.24c-.29-.15-1.72-.85-1.99-.95-.27-.1-.47-.15-.67.15-.2.29-.77.95-.94 1.15-.17.2-.35.22-.64.07-.29-.15-1.23-.45-2.34-1.44-.86-.77-1.45-1.72-1.62-2.01-.17-.29-.02-.45.13-.59.13-.13.29-.35.44-.52.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.91-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.29-1.04 1.02-1.04 2.48 0 1.46 1.06 2.87 1.21 3.07.15.2 2.09 3.19 5.06 4.47.71.3 1.26.49 1.69.63.71.22 1.35.19 1.86.12.57-.08 1.72-.7 1.96-1.38.24-.67.24-1.25.17-1.38-.07-.12-.27-.19-.56-.34z"/>
+      <path fill="currentColor" d="M16.03 3C8.84 3 3 8.76 3 15.84c0 2.48.72 4.8 1.96 6.76L3 29l6.57-1.9a13.1 13.1 0 0 0 6.46 1.69C23.22 28.79 29 23.03 29 15.84S23.22 3 16.03 3zm0 23.62c-2.1 0-4.05-.61-5.69-1.67l-.41-.26-3.9 1.13 1.16-3.78-.27-.43a10.55 10.55 0 0 1-1.75-5.77c0-5.85 4.87-10.62 10.86-10.62s10.8 4.77 10.8 10.62-4.82 10.78-10.8 10.78z"/>
+    </svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

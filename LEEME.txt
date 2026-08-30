@@ -1,0 +1,40 @@
+CENTRO EDUCATIVO LAS AMÉRICAS
+==============================
+
+Archivos:
+- index.html
+- styles.css
+- script.js
+- carpeta img/
+
+FOTOS QUE PUEDES AGREGAR EN /img:
+- hero.jpg
+- nosotros.jpg
+- galeria-1.jpg
+- galeria-2.jpg
+- galeria-3.jpg
+- galeria-4.jpg
+- galeria-5.jpg
+
+WHATSAPP:
+Busca en index.html y script.js:
+521XXXXXXXXXX
+
+Cámbialo por el número real del kinder en formato internacional,
+sin signo +, sin espacios y sin guiones.
+
+Ejemplo para México:
+5215512345678
+
+También puedes cambiar:
+- teléfono
+- correo
+- dirección
+- textos
+- nombres de niveles
+- colores en :root dentro de styles.css
+
+Para probar la página:
+1. Coloca todos los archivos dentro de una misma carpeta.
+2. Mete tus fotografías en la carpeta img.
+3. Abre index.html en Chrome, Edge, Firefox, etc.
